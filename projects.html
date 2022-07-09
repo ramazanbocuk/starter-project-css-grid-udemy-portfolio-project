@@ -3,10 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>products page</title>
+    <title>John Doe || Projects</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
-    <h1>products page</h1>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/logo.svg" alt="" class="nav-logo" />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- sidebar-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+             <li>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+             <li>
+            <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+          </li>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- end of sidebar -->
+   
+
+
+    <!-- projects -->
+    <section class="section projects">
+      <!-- section title -->
+          <div class="section-title">
+            <h2>latest works</h2>
+            <div class="underline"></div>
+            <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia incidunt numquam optio id corporis, voluptatibus quibusdam esse, quidem dolor alias officia dolores amet ullam minima quam hic repellendus in maxime eligendi rem veritatis quasi. Illum vitae praesentium corporis saepe, possimus ab consectetur. Reiciendis, similique architecto.</p>
+
+          </div>
+          <!-- end of section title -->
+          <div class="section-center projects-center">
+            <!-- single project -->
+            <a href="projects.html" class="project-1">
+            <article class="project">
+              <img src="./images/project-1.jpeg" alt="project" class="project-img">
+              <div class="project-info">
+                <h4>project title</h4>
+                <p>client name</p>
+              </div>
+            </article>
+            </a>
+            <!-- end of single project -->
+              <!-- single project -->
+            <a href="projects.html" class="project-2">
+            <article class="project">
+              <img src="./images/project-2.jpeg" alt="project" class="project-img">
+              <div class="project-info">
+                <h4>project title</h4>
+                <p>client name</p>
+              </div>
+            </article>
+            </a>
+            <!-- end of single project -->
+              <!-- single project -->
+            <a href="projects.html" class="project-3">
+            <article class="project">
+              <img src="./images/project-3.jpeg" alt="project" class="project-img">
+              <div class="project-info">
+                <h4>project title</h4>
+                <p>client name</p>
+              </div>
+            </article>
+            </a>
+            <!-- end of single project -->
+              <!-- single project -->
+            <a href="projects.html" class="project-4">
+            <article class="project">
+              <img src="./images/project-4.jpeg" alt="project" class="project-img">
+              <div class="project-info">
+                <h4>project title</h4>
+                <p>client name</p>
+              </div>
+            </article>
+            </a>
+            <!-- end of single project -->
+          </div>
+    </section>
+    <!-- end of projects -->
+   
+  
+    <!-- footer -->
+    <footer class="footer">
+       <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+             <li>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+             <li>
+            <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+          </li>
+          </li>
+          </li>
+        </ul>
+      <p>copyright &copy; <span id="date"></span> Raz all rights reserved</p>
+    </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
